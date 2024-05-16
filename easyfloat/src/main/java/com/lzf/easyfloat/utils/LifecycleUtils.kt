@@ -12,7 +12,7 @@ import java.lang.ref.WeakReference
  * @function: 通过生命周期回调，判断系统浮窗的过滤信息，以及app是否位于前台，控制浮窗显隐
  * @date: 2019-07-11  15:51
  */
-internal object LifecycleUtils {
+object LifecycleUtils {
 
     lateinit var application: Application
     private var activityCount = 0
